@@ -4,20 +4,8 @@
     box-sizing:border-box;
 }
 
-body{
-    font-family:Arial, sans-serif;
-    line-height:1.6;
-}
-
-header{
-    background:#222;
-    color:white;
-    position:sticky;
-    top:0;
-}*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+html{
+    scroll-behavior: smooth;
 }
 
 body{
@@ -30,7 +18,9 @@ header{
     color:white;
     position:sticky;
     top:0;
+    z-index: 1000;
 }
+
 nav{
     display:flex;
     justify-content:space-between;
@@ -50,6 +40,10 @@ nav{
 .nav-links a{
     color:white;
     text-decoration:none;
+}
+
+.nav-links a:hover {
+    color: #f97316;
 }
 
 .hero-section {
@@ -130,5 +124,58 @@ nav{
     font-size: 1.1rem;
     color: #475569;
     margin-bottom: 20px;
+    text-align: justify;
+}
+
+.education-section {
+    background-color: #f8fafc;
+    padding: 80px 10%;
+}
+
+.education-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.education-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border-left: 5px solid #f97316;
+    margin-top: 20px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.card-header h3 {
+    font-size: 1.4rem;
+    color: #1e293b;
+}
+
+.card-header .duration {
+    background-color: #fff7ed;
+    color: #f97316;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.university {
+    color: #f97316;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.details {
+    color: #475569;
+    font-size: 1rem;
     text-align: justify;
 }

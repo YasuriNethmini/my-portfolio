@@ -359,3 +359,22 @@ nav{
 .btn-submit:hover {
     background-color: #ea580c;
 }
+
+footer {
+    background-color: #222222;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 10%;
+    border-top: 3px solid #f97316;
+}
+
+.footer-content p {
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+}
+
+.footer-sub {
+    font-size: 0.85rem;
+    color: #94a3b8;
+    margin-top: 5px;
+}

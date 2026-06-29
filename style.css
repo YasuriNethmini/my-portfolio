@@ -35,3 +35,55 @@ nav{
     color:white;
     text-decoration:none;
 }
+
+.hero-section {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); /* තද පැහැති සුඛෝපභෝගී පසුබිමක් */
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    padding: 0 10%;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    letter-spacing: -0.5px;
+}
+
+.hero-content .highlight {
+    color: #f97316; 
+}
+
+.hero-content .subtitle {
+    font-size: 1.25rem;
+    color: #cbd5e1;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.hero-content .description {
+    max-width: 600px;
+    margin: 0 auto 35px auto;
+    color: #94a3b8;
+    font-size: 1rem;
+}
+
+.btn-primary {
+    display: inline-block;
+    background-color: #f97316; /* Orange Button */
+    color: #ffffff;
+    padding: 14px 32px;
+    font-weight: 600;
+    border-radius: 6px;
+    box-shadow: 0 4px 14px rgba(249, 115, 22, 0.3);
+}
+
+.btn-primary:hover {
+    background-color: #ea580c;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(234, 88, 12, 0.4);
+}
